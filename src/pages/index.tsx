@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Footer from "../components/Footer";
@@ -87,7 +88,8 @@ const Home: NextPage = () => {
           <div className="relative inline-flex w-full h-96 md:h-0 items-center justify-center">
             {images.map((value, index) => {
               return (
-                <img
+                <Image
+                  key={index}
                   src={value}
                   alt="aa"
                   className={`w-full absolute left-[50%] md:left-0 md:translate-x-0 translate-x-[-50%] md:right-0 max-w-sm lg:max-w-md xl:max-w-lg firstImg ${
@@ -98,7 +100,7 @@ const Home: NextPage = () => {
             })}
           </div>
         </div>
-        <img
+        <Image
           src="/coffee-beans.png"
           alt=""
           className="w-64 absolute bottom-0 left-[30vw] md:block hidden"

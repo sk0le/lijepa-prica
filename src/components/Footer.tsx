@@ -5,11 +5,12 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 
 export default function Footer() {
   return (
     <footer className="h-full w-full px-6 space-y-10 lg:space-y-0 lg:px-10 xl:px-24 py-10 flex flex-col lg:flex-row  items-start justify-between bg-coffeeDark">
-      <img src="/logo.png" className="w-56" />
+      <Image src="/logo.png" className="w-56" alt="" />
 
       <nav className="flex flex-col items-start">
         <p className="text-coffeeWhite mb-5 text-xl font-bold">Navigacija</p>

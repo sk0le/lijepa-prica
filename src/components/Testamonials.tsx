@@ -1,5 +1,6 @@
 import { faArrowRight, faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 
 export default function Testamonials() {
   return (
@@ -15,14 +16,14 @@ export default function Testamonials() {
         Nasi gosti o nama
       </h1>
       <div className="max-w-sm w-full h-1 bg-coffee z-50  rounded-full mt-2"></div>
-      <img
+      <Image
         src="/coffee-new.png"
         alt=""
         className="w-full max-w-xs sm:max-w-sm md:max-w-md absolute  right-[-10rem] top-[1vh] xl:top-[50%] xl:translate-y-[-70%] m-0"
       />
       <div className=" mt-0 lg:mt-5 flex items-center lg:items-start flex-col lg:flex-row lg:space-x-5 ">
         <div className="relative">
-          <img
+          <Image
             src="/kupac.png"
             alt=""
             className="max-w-xs relative left-0 z-50 rounded-br-[90px] rounded-bl-[90px] mt-6 lg:mt-0"
@@ -30,7 +31,7 @@ export default function Testamonials() {
           <div className="w-full h-44 bg-coffee rounded-full absolute bottom-0 left-0 right-0"></div>
         </div>
         <div className="text-9xl leading-10 font-playfair -skew-x-3 mt-16 lg:mt-5 italic lg:mr-2">
-          "
+          {'"'}
         </div>
         <div className="flex flex-col items-start justify-start mt-0 lg:mt-16">
           <h1 className="text-3xl text-coffee font-bold font-playfair italic">

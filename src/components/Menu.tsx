@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Menu() {
   return (
     <div
@@ -24,9 +26,10 @@ export default function Menu() {
                 className="max-w-xs w-full bg-coffee rounded-3xl shadow-2xl"
                 key={index}
               >
-                <img
+                <Image
                   src={value.img}
                   className="rounded-tl-3xl rounded-tr-3xl "
+                  alt=""
                 />
                 <div className="px-5 py-5">
                   <h1 className="text-xl text-[#fff] font-medium">
@@ -42,6 +45,7 @@ export default function Menu() {
         href="https://korpa.ba/partner/lijepa-prica"
         target="_blank"
         className="px-8 py-3 border-2 main-button border-coffee rounded-full bg-coffee transition-all text-coffeeWhite mt-10 hover:px-12 hover:py-4"
+        rel="noreferrer"
       >
         Pogledajte ostalo
       </a>

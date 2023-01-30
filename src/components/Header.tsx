@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { useState } from "react";
 import Sticky from "react-stickynode";
 interface CProps {
@@ -16,7 +17,7 @@ export default function Header({ isNavBarOpen, setIsNavbarOpen }: CProps) {
           isNavBarOpen ? "bg-coffeeLight" : ""
         }`}
       >
-        <img src="/logo.png" className="w-56 -skew-x-3" />
+        <Image alt="" src="/logo.png" className="w-56 -skew-x-3" />
         <section className="MOBILE-MENU flex lg:hidden">
           <div
             className="HAMBURGER-ICON space-y-2 -skew-x-3 cursor-pointer relative"

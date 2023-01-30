@@ -5,6 +5,7 @@ import {
   faWifi,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 
 const stavke = [
   {
@@ -37,13 +38,13 @@ export default function WhyUs() {
     >
       <h1 className="text-4xl text-coffeeDark font-bold">Zasto mi?</h1>
       <div className="w-full max-w-xs h-1 bg-coffee rounded-full mt-2"></div>
-      <img
+      <Image
         src="/coffee-beans-new.png"
         alt=""
         className="absolute top-[13vh] right-[-1rem] w-44 md:block hidden"
       />
       <div className="w-full mt-10 flex flex-col-reverse lg:flex-row justify-center items-center space-x-0 lg:space-x-10 z-[999]">
-        <img
+        <Image
           src="/lijepa-prica.png"
           alt=""
           className="w-full max-w-xl xl:max-w-2xl rounded-3xl"
