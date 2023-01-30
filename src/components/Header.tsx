@@ -12,7 +12,7 @@ export default function Header({ isNavBarOpen, setIsNavbarOpen }: CProps) {
   return (
     <Sticky
       enabled={true}
-      innerActiveClass="bg-[#fce5b8cc]  z-[9999] backdrop-blur-md"
+      innerActiveClass="bg-[#fce5b8cc]  z-[9999] backdrop-blur-md h-[10vh] lg:h-[15vh] flex items-center"
       releasedClass="bg-transparent"
     >
       <header
