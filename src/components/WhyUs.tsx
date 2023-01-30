@@ -41,11 +41,15 @@ export default function WhyUs() {
       <Image
         src="/coffee-beans-new.png"
         alt=""
+        width={0}
+        height={0}
         className="absolute top-[13vh] right-[-1rem] w-44 md:block hidden"
       />
       <div className="w-full mt-10 flex flex-col-reverse lg:flex-row justify-center items-center space-x-0 lg:space-x-10 z-[999]">
         <Image
           src="/lijepa-prica.png"
+          width={0}
+          height={0}
           alt=""
           className="w-full max-w-xl xl:max-w-2xl rounded-3xl"
         />

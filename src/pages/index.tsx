@@ -92,6 +92,8 @@ const Home: NextPage = () => {
                   key={index}
                   src={value}
                   alt="aa"
+                  width={0}
+                  height={0}
                   className={`w-full absolute left-[50%] md:left-0 md:translate-x-0 translate-x-[-50%] md:right-0 max-w-sm lg:max-w-md xl:max-w-lg firstImg ${
                     currentImg !== index ? "animation-to-hide" : ""
                   }`}
@@ -102,6 +104,8 @@ const Home: NextPage = () => {
         </div>
         <Image
           src="/coffee-beans.png"
+          width={0}
+          height={0}
           alt=""
           className="w-64 absolute bottom-0 left-[30vw] md:block hidden"
         />

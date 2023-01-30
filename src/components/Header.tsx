@@ -5,6 +5,9 @@ interface CProps {
   isNavBarOpen: boolean;
   setIsNavbarOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }
+
+import logo from "../../public/logo.png";
+
 export default function Header({ isNavBarOpen, setIsNavbarOpen }: CProps) {
   return (
     <Sticky
@@ -17,7 +20,7 @@ export default function Header({ isNavBarOpen, setIsNavbarOpen }: CProps) {
           isNavBarOpen ? "bg-coffeeLight" : ""
         }`}
       >
-        <Image alt="" src="/logo.png" className="w-56 -skew-x-3" />
+        <Image alt="" src={logo} className="w-56 -skew-x-3" />
         <section className="MOBILE-MENU flex lg:hidden">
           <div
             className="HAMBURGER-ICON space-y-2 -skew-x-3 cursor-pointer relative"

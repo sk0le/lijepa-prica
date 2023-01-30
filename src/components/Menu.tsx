@@ -28,7 +28,9 @@ export default function Menu() {
               >
                 <Image
                   src={value.img}
-                  className="rounded-tl-3xl rounded-tr-3xl "
+                  className="rounded-tl-3xl rounded-tr-3xl w-full"
+                  height={0}
+                  width={0}
                   alt=""
                 />
                 <div className="px-5 py-5">
