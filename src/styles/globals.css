@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.firstImg {
+  animation: slide-in 0.4s ease-in;
+}
+
+.main-button {
+  box-shadow: -5px 6px 16px 0px rgba(0, 0, 0, 0.56);
+}
+
+@keyframes slide-out {
+  0% {
+    right: 0;
+    opacity: 1;
+  }
+  100% {
+    right: 400px;
+    opacity: 0;
+  }
+}
+
+.animation-to-hide {
+  right: 0;
+  animation: slide-out 0.4s ease-out;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #fafafa;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  background-color: #fafafa;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #603322;
+}
