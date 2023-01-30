@@ -103,7 +103,7 @@ export default function Header({ isNavBarOpen, setIsNavbarOpen }: CProps) {
         <nav className="space-x-8 hidden lg:flex -skew-x-3">
           <a
             href="#start"
-            className="font-base text-coffee hover:underline cursor-pointer backdrop-blur-xl"
+            className="font-base text-coffee hover:underline cursor-pointer"
           >
             Pocetna
           </a>
