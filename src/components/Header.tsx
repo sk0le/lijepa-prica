@@ -50,7 +50,7 @@ export default function Header({ isNavBarOpen, setIsNavbarOpen }: CProps) {
         </section>
 
         <div
-          className={`w-full h-[90vh] fixed right-0 top-[15vh] transition-all bg-coffeeLight z-50 ${
+          className={`w-full h-[90vh] fixed right-0 top-[10vh] transition-all bg-coffeeLight z-50 ${
             isNavBarOpen ? "flex" : "hidden"
           }
           justify-center items-center flex-col space-y-10 text-xl`}
