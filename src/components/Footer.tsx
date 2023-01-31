@@ -20,13 +20,13 @@ export default function Footer() {
           href="#start"
           className="font-base text-coffeeWhite hover:underline cursor-pointer backdrop-blur-xl"
         >
-          Pocetna
+          Početna
         </a>
         <a
           href="#why-us"
           className="font-base text-coffeeWhite hover:underline cursor-pointer"
         >
-          Zasto mi?
+          Zašto mi?
         </a>
         <a
           href="#menu"
@@ -38,7 +38,7 @@ export default function Footer() {
           href="#testamonials"
           className="font-base text-coffeeWhite hover:underline cursor-pointer"
         >
-          Nasi gosti o nama
+          Naši gosti o nama
         </a>
       </nav>
       <div>

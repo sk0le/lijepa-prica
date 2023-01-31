@@ -13,7 +13,7 @@ export default function Testamonials() {
       }}
     >
       <h1 className="text-4xl text-coffeeDark font-bold z-50">
-        Nasi gosti o nama
+        Naši gosti o nama
       </h1>
       <div className="max-w-sm w-full h-1 bg-coffee z-50  rounded-full mt-2"></div>
       <Image
@@ -39,7 +39,7 @@ export default function Testamonials() {
         </div>
         <div className="flex flex-col items-start justify-start mt-0 lg:mt-16">
           <h1 className="text-3xl text-coffee font-bold font-playfair italic">
-            Najbolje palacinke
+            Najbolje palačinke
           </h1>
           <p className="max-w-sm mt-4 z-50">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -47,7 +47,7 @@ export default function Testamonials() {
             voluptatibus esse magni commodi quidem ea molestias praesentium
             dicta voluptates quae modi necessitatibus provident.
           </p>
-          <h1 className="text-xl font-bold mt-5">Armin Karamujic</h1>
+          <h1 className="text-xl font-bold mt-5">Armin Karamujić</h1>
           <div className="mt-2 flex space-x-2">
             {Array(5)
               .fill(0)
@@ -62,14 +62,6 @@ export default function Testamonials() {
               })}
           </div>
         </div>
-        {/* <div className="flex-1 flex justify-center h-full w-full items-center">
-          <div className="p-2 bg-coffee rounded-full cursor-pointer hover:p-4 transition-all">
-            <FontAwesomeIcon
-              icon={faArrowRight}
-              className="w-6 h-6 text-coffeeWhite"
-            />
-          </div>
-        </div> */}
       </div>
     </div>
   );

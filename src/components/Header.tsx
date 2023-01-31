@@ -63,7 +63,7 @@ export default function Header({ isNavBarOpen, setIsNavbarOpen }: CProps) {
             }}
             className="font-base text-coffee hover:underline cursor-pointer backdrop-blur-xl"
           >
-            Pocetna
+            Početna
           </a>
           <a
             onClick={() => {
@@ -73,7 +73,7 @@ export default function Header({ isNavBarOpen, setIsNavbarOpen }: CProps) {
             href="#why-us"
             className="font-base text-coffee hover:underline cursor-pointer"
           >
-            Zasto mi?
+            Zašto mi?
           </a>
           <a
             onClick={() => {
@@ -93,7 +93,7 @@ export default function Header({ isNavBarOpen, setIsNavbarOpen }: CProps) {
             }}
             className="font-base text-coffee hover:underline cursor-pointer"
           >
-            Nasi gosti o nama
+            Naši gosti o nama
           </a>
           <button className="px-8 py-3 border-2 -skew-x-3 border-coffee rounded-full text-coffee hover:bg-coffee transition-all hover:text-coffeeWhite">
             Kontaktiraj nas
@@ -105,13 +105,13 @@ export default function Header({ isNavBarOpen, setIsNavbarOpen }: CProps) {
             href="#start"
             className="font-base text-coffee hover:underline cursor-pointer"
           >
-            Pocetna
+            Početna
           </a>
           <a
             href="#why-us"
             className="font-base text-coffee hover:underline cursor-pointer"
           >
-            Zasto mi?
+            Zašto mi?
           </a>
           <a
             href="#menu"
@@ -123,7 +123,7 @@ export default function Header({ isNavBarOpen, setIsNavbarOpen }: CProps) {
             href="#testamonials"
             className="font-base text-coffee hover:underline cursor-pointer"
           >
-            Nasi gosti o nama
+            Naši gosti o nama
           </a>
         </nav>
         <button className="px-8 py-3 border-2 -skew-x-3 hidden lg:block border-coffee rounded-full text-coffee hover:bg-coffee transition-all hover:text-coffeeWhite">

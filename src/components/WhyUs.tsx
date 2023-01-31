@@ -11,12 +11,12 @@ const stavke = [
   {
     icon: faAward,
     name: "Dobra kvaliteta",
-    desc: "Dodjite i probajte, sami se uvjerite!",
+    desc: "Dođite i probajte, sami se uvjerite!",
   },
   {
     icon: faWifi,
     name: "Besplatan internet",
-    desc: "Trebate zavrsiti neki posao? Ili samo zelite surfati internetom, besplatan internet je tu za Vas.",
+    desc: "Trebate završiti neki posao? Ili samo želite surfati internetom, besplatan internet je tu za Vas.",
   },
   {
     icon: faLocationDot,
@@ -26,7 +26,7 @@ const stavke = [
   {
     icon: faGlobe,
     name: "Kupovina online",
-    desc: "Mozete naruciti online uz pomoc Korpa aplikacije.",
+    desc: "Možete naručiti online uz pomoć Korpa aplikacije.",
   },
 ];
 
@@ -36,7 +36,7 @@ export default function WhyUs() {
       id="why-us"
       className="min-h-screen h-full scroll-m-32 px-12 xl:px-0 relative flex flex-col -skew-x-3 justify-center items-center py-6 md:py-16"
     >
-      <h1 className="text-4xl text-coffeeDark font-bold">Zasto mi?</h1>
+      <h1 className="text-4xl text-coffeeDark font-bold">Zašto mi?</h1>
       <div className="w-full max-w-xs h-1 bg-coffee rounded-full mt-2"></div>
       <Image
         src="/coffee-beans-new.png"

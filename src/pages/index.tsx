@@ -46,7 +46,7 @@ const Home: NextPage = () => {
   return (
     <div className="overflow-x-hidden bg-coffeeWhite scroll-smooth">
       <Head>
-        <title>Lijepa Prica</title>
+        <title>Lijepa Priča</title>
         <meta name="description" content="Lijepa Prica Restoran u Tuzli" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -69,20 +69,20 @@ const Home: NextPage = () => {
         >
           <div className="w-full h-full flex justify-center py-12 md:py-0 items-center md:items-start flex-col">
             <h1 className="text-3xl md:text-5xl  xl:text-6xl text-coffeeDark font-black font-playfair">
-              Kafa, Palacinci.
+              Kafa, Palačinci.
             </h1>
             <h1 className="text-3xl md:text-5xl xl:text-6xl text-coffeeDark font-black font-playfair">
-              Sve sto Vam treba.
+              Sve što Vam treba.
             </h1>
             <p className="max-w-lg lg:max-w-xl text-center md:text-left text-coffeeDark font-playfairm mt-4 md:mt-8 mb-6 md:mb-10 text-base sm:text-lg md:text-xl">
-              Uzivajte u kafi i palacinkama, popravite Vas dan po jako niskoj
+              Uživajte u kafi i palačinkama, popravite Vas dan po jako niskoj
               cijeni.
             </p>
             <a
               href="#menu"
               className="px-8 py-3 border-2 main-button border-coffee rounded-full bg-coffee transition-all text-coffeeWhite hover:px-12 hover:py-4"
             >
-              Pogledajte nas meni
+              Pogledajte naš meni
             </a>
           </div>
           <div className="relative inline-flex w-full h-96 md:h-0 items-center justify-center">
