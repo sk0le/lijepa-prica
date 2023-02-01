@@ -42,10 +42,9 @@ export default function Testamonials() {
             Najbolje palačinke
           </h1>
           <p className="max-w-sm mt-4 z-50">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Perferendis impedit numquam, distinctio sint deserunt saepe iusto
-            voluptatibus esse magni commodi quidem ea molestias praesentium
-            dicta voluptates quae modi necessitatibus provident.
+            Prvi put kada sam ušao ovdje, atmosfera je bila perfektna. Od
+            prefinih konobara pa sve do palačinaka te kafe. Od tada sam stalni
+            gost ovdje, te preporučujem ovaj kafić svima.
           </p>
           <h1 className="text-xl font-bold mt-5">Armin Karamujić</h1>
           <div className="mt-2 flex space-x-2">
