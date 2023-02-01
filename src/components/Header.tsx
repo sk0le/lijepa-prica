@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
 import React, { useState } from "react";
 import Sticky from "react-stickynode";
 interface CProps {
@@ -9,6 +10,7 @@ interface CProps {
 import logo from "../../public/logo.png";
 
 export default function Header({ isNavBarOpen, setIsNavbarOpen }: CProps) {
+  const router = useRouter();
   return (
     <Sticky
       enabled={true}
@@ -56,7 +58,7 @@ export default function Header({ isNavBarOpen, setIsNavbarOpen }: CProps) {
           justify-center items-center flex-col space-y-10 text-xl`}
         >
           <a
-            href="#start"
+            href="/#start"
             onClick={() => {
               setIsNavbarOpen(false);
               document.body.style.overflow = "auto";
@@ -70,7 +72,7 @@ export default function Header({ isNavBarOpen, setIsNavbarOpen }: CProps) {
               setIsNavbarOpen(false);
               document.body.style.overflow = "auto";
             }}
-            href="#why-us"
+            href="/#why-us"
             className="font-base text-coffee hover:underline cursor-pointer"
           >
             Zašto mi?
@@ -80,13 +82,13 @@ export default function Header({ isNavBarOpen, setIsNavbarOpen }: CProps) {
               setIsNavbarOpen(false);
               document.body.style.overflow = "auto";
             }}
-            href="#menu"
+            href="/#menu"
             className="font-base text-coffee hover:underline cursor-pointer"
           >
             Meni
           </a>
           <a
-            href="#testamonials"
+            href="/#testamonials"
             onClick={() => {
               setIsNavbarOpen(false);
               document.body.style.overflow = "auto";
@@ -95,38 +97,48 @@ export default function Header({ isNavBarOpen, setIsNavbarOpen }: CProps) {
           >
             Naši gosti o nama
           </a>
-          <button className="px-8 py-3 border-2 -skew-x-3 border-coffee rounded-full text-coffee hover:bg-coffee transition-all hover:text-coffeeWhite">
+          <button
+            onClick={() => {
+              router.push("/contact-us");
+            }}
+            className="px-8 py-3 border-2 -skew-x-3 border-coffee rounded-full text-coffee hover:bg-coffee transition-all hover:text-coffeeWhite"
+          >
             Kontaktiraj nas
           </button>
         </div>
 
         <nav className="space-x-8 hidden lg:flex -skew-x-3">
           <a
-            href="#start"
+            href="/#start"
             className="font-base text-coffee hover:underline cursor-pointer"
           >
             Početna
           </a>
           <a
-            href="#why-us"
+            href="/#why-us"
             className="font-base text-coffee hover:underline cursor-pointer"
           >
             Zašto mi?
           </a>
           <a
-            href="#menu"
+            href="/#menu"
             className="font-base text-coffee hover:underline cursor-pointer"
           >
             Meni
           </a>
           <a
-            href="#testamonials"
+            href="/#testamonials"
             className="font-base text-coffee hover:underline cursor-pointer"
           >
             Naši gosti o nama
           </a>
         </nav>
-        <button className="px-8 py-3 border-2 -skew-x-3 hidden lg:block border-coffee rounded-full text-coffee hover:bg-coffee transition-all hover:text-coffeeWhite">
+        <button
+          onClick={() => {
+            router.push("/contact-us");
+          }}
+          className="px-8 py-3 border-2 -skew-x-3 hidden lg:block border-coffee rounded-full text-coffee hover:bg-coffee transition-all hover:text-coffeeWhite"
+        >
           Kontaktiraj nas
         </button>
       </header>
