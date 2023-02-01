@@ -75,7 +75,7 @@ const Home: NextPage = () => {
               Sve što Vam treba.
             </h1>
             <p className="max-w-lg lg:max-w-xl text-center md:text-left text-coffeeDark font-playfairm mt-4 md:mt-8 mb-6 md:mb-10 text-base sm:text-lg md:text-xl">
-              Uživajte u kafi i palačinkama, popravite Vas dan po jako niskoj
+              Uživajte u kafi i palačinkama, popravite Vaš dan po jako niskoj
               cijeni.
             </p>
             <a
